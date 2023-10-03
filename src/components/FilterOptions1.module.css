@@ -1,0 +1,36 @@
+.denysNevozhaiD68adlemh5qUns {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-silver);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  width: 75px;
+  height: 75px;
+}
+.denysNevozhaiD68adlemh5qUns,
+.getApalledBy,
+.rockGarden {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rockGarden {
+  top: 26px;
+  font-size: var(--font-size-3xl);
+}
+.getApalledByParent,
+.options1 {
+  position: absolute;
+  top: 12px;
+  left: 89px;
+  width: 141px;
+  height: 52px;
+}
+.options1 {
+  top: 908px;
+  left: 106px;
+  width: 230px;
+  height: 75px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

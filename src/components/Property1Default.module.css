@@ -1,0 +1,325 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.property1defaultChild {
+  position: absolute;
+  top: calc(50% - 906px);
+  left: 0;
+  width: 1728px;
+  height: 1117px;
+  object-fit: cover;
+  opacity: 0.75;
+}
+.contactUs,
+.travelCost {
+  cursor: pointer;
+  padding: 0;
+  top: 19px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.contactUs {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 45px;
+  font-weight: 700;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.travelCost {
+  left: 249px;
+}
+.destinations,
+.enhanceYouTravel,
+.travelCost {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--font-roboto);
+  position: absolute;
+  font-weight: 700;
+  color: var(--color-white);
+  text-align: left;
+}
+.destinations {
+  cursor: pointer;
+  padding: 0;
+  top: 19px;
+  left: 458px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.enhanceYouTravel {
+  font-size: var(--font-size-16xl);
+  top: 547px;
+  left: 507px;
+}
+.search1,
+.searchChild {
+  position: absolute;
+  left: 0;
+}
+.searchChild {
+  top: 0;
+  border-radius: var(--br-231xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1519px;
+  height: 53px;
+}
+.search1 {
+  top: 7px;
+  display: inline-block;
+  width: 444.02px;
+  height: 22.38px;
+}
+.searchIcon {
+  position: absolute;
+  top: 0;
+  left: 1396px;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+}
+.search,
+.searchParent {
+  position: absolute;
+  top: 9px;
+  left: 45px;
+  width: 1431px;
+  height: 35px;
+}
+.search {
+  top: 631px;
+  left: 0;
+  width: 1519px;
+  height: 53px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.exploreButtonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-231xl);
+  background-color: var(--color-orangered);
+  box-shadow: 0 5px 25px rgba(255, 61, 0, 0.5);
+  width: 160px;
+  height: 45px;
+}
+.explore {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.exploreButton,
+.header {
+  position: absolute;
+  top: 0;
+  left: 1325px;
+  width: 160px;
+  height: 45px;
+}
+.header {
+  top: 86px;
+  left: 106px;
+  width: 1519px;
+  height: 684px;
+}
+.wanderwise {
+  margin: 0;
+  position: absolute;
+  top: 420px;
+  left: 227px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.romeoASlil9ezjwucUnsplash1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  width: 507px;
+  height: 678px;
+  object-fit: cover;
+  opacity: 0;
+}
+.romeoASlil9ezjwucUnsplash1Icon.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.chandigarhStories {
+  margin: 0;
+  position: absolute;
+  top: 39px;
+  left: 603px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.areYouReady {
+  margin: 0;
+  position: absolute;
+  top: 154px;
+  left: 617px;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 656px;
+  height: 238px;
+  opacity: 0.7;
+}
+.sector1,
+.sector17,
+.sector19 {
+  position: absolute;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.sector17 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-15xl);
+  color: var(--color-orangered);
+}
+.sector1,
+.sector19 {
+  top: 1px;
+  left: 191px;
+}
+.sector1 {
+  left: 390px;
+}
+.sector17Parent {
+  margin: 0;
+  position: absolute;
+  top: 465px;
+  left: 616px;
+  width: 518px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-231xl);
+  background-color: var(--color-orangered);
+  box-shadow: 0 4px 25px #ff3d00;
+  width: 220px;
+  height: 60px;
+}
+.planAVisit {
+  position: absolute;
+  top: 16px;
+  left: 52px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 547px;
+  left: 606px;
+  width: 220px;
+  height: 60px;
+}
+.info {
+  position: absolute;
+  top: 1134px;
+  left: 83px;
+  width: 1292px;
+  height: 678px;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.scrolChild,
+.scrolItem {
+  position: absolute;
+  top: -3px;
+  left: 5px;
+  border-right: 6px solid var(--color-white);
+  box-sizing: border-box;
+  width: 6px;
+  height: 337px;
+  opacity: 0.8;
+}
+.scrolItem {
+  top: -5px;
+  left: 3px;
+  border-right: 10px solid var(--color-orangered);
+  width: 10px;
+  height: 110px;
+}
+.explore1 {
+  position: absolute;
+  top: 416px;
+  left: 0;
+  font-weight: 800;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.scrol {
+  position: absolute;
+  top: 1223px;
+  left: 1617px;
+  width: 23px;
+  height: 416px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+.property1default {
+  position: absolute;
+  top: 0;
+  left: 33px;
+  background-color: var(--color-black);
+  width: 1728px;
+  height: 1812px;
+  overflow: hidden;
+  opacity: 0;
+  text-align: left;
+  font-size: var(--font-size-181xl);
+  color: var(--color-white);
+  font-family: var(--font-rokkitt);
+}
+.property1default.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
