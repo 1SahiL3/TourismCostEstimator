@@ -10,25 +10,16 @@ body {
   --font-rokkitt: Rokkitt;
 
   /* font sizes */
-  --font-size-xl: 20px;
-  --font-size-5xl: 24px;
   --font-size-13xl: 32px;
-  --font-size-15xl: 34px;
-  --font-size-11xl: 30px;
-  --font-size-61xl: 80px;
   --font-size-3xl: 22px;
   --font-size-lg: 18px;
-  --font-size-181xl: 200px;
-  --font-size-16xl: 35px;
 
   /* Colors */
-  --color-black: #000;
   --color-white: #fff;
   --color-orangered: #ff3d00;
   --color-silver: #c4c4c4;
 
   /* Border radiuses */
   --br-231xl: 250px;
-  --br-mini: 15px;
   --br-31xl: 50px;
 }
