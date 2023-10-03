@@ -418,7 +418,7 @@
 .property1default {
   position: absolute;
   top: 0;
-  left: 33px;
+  left: 0;
   background-color: #000;
   width: 1728px;
   height: 1812px;
@@ -434,7 +434,7 @@
   border: 1px dashed #9747ff;
   box-sizing: border-box;
   width: 100%;
-  height: 1832px;
+  height: 1811px;
   overflow: hidden;
   text-align: left;
   font-size: 200px;
